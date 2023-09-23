@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlantica - Live your dreams</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            max-width: 100%;
+        }
+        header {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #007acc;
+        }
+        h3 {
+            color: #005b97;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 98%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type=checkbox] {
+            width: 20px;
+        }
+        input[type=submit]:hover {
+            background-color: #007acc;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atlantica</h1>
+        <p>The City of Ocean Dreams!</p>
+    </header>
+    <nav>
+        <a href="#description">Description</a>
+        <a style="color: grey;">|</a>
+        <a href="#attractions">Attractions</a>
+        <a style="color: grey;">|</a>
+        <a href="#statistics">Statistics</a>
+        <a style="color: grey;">|</a>
+        <a href="#feedback">Feedback</a>
+        <a style="color: grey;">|</a>
+        <a href="#quotes">Quotes</a>
+        <a style="color: grey;">|</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="description">
+        <h2>Discover Atlantic</h2>
+        <img src="https://i.pinimg.com/originals/4a/59/6b/4a596b643fb1e57eda2b94d6de2b694d.jpg" alt="City Image">
+        <p>Atlantica, the city where the horizon merges the sky with the ocean, offering dreams a canvas as vast as the sea.</p>
+        <hr>
+    </section>
+    <section id="attractions">
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+            <li>Atlantis Tower</li>
+            <li>Deep Sea Museum</li>
+            <li>The Oceanic Bridge</li>
+        </ol>
+        <ul>
+            <li>Mermain's Street</li>
+            <li>Neptune's Diner</li>
+            <li>Atlantica Beaches</li>
+            <ul>
+                <li>North Beach</li>
+                <li>Reef Bay</li>
+                <li>Mermaid Cove</li>
+            </ul>
+        </ul>
+        <hr>
+    </section>
+    <section id="statistics">
+        <h2>City Statistics</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Population</td>
+                    <td>5 Million</td>
+                </tr>
+                <tr>
+                    <td>Landmark</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Parks</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Schools</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Beaches</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </section>
+    <section id="feedback">
+        <h2>Citizen Feedback</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="favourite">Favourite Attraction</label>
+            <select style="width: 100%;" id="favourite" name="favourite" required>
+                <option value="Atlantis Tower">Atlantis Tower</option>
+                <option value="Deep Sea Museum">Deep Sea Museum</option>
+                <option value="The Oceanic Bridge">The Oceanic Bridge</option>
+            </select>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+            <label for="subscribe">Newsletter:
+                <input type="checkbox" id="subscribe" name="subscribe" checked="checked">Subscribe to our newsletter
+            </label>
+            <input type="submit" value="Submit" style="width: auto; height: auto;">
+        </form>
+        <hr>
+    </section>
+    <section id="quotes">
+        <h2>What Citizens Say</h2>
+        <p><span>"</span>Atlantica's beaches are paradise on Earth. Nothing beats a sunset here!<span>"</span>- Alex</p>
+        <p><span>"</span>The blend od modern skyscrapers and ancient oceanic history is mesmerizing.<span>"</span>- Isabelle</p>
+        <hr>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+            <p><i>Atlantica Tourism Office</i></p>
+            <p>100 Ocean Drive, Atlantica</p>
+            <p>Email: <a href="mailto:info@atlantica.com">info@atlantica.com</a></p>
+            <p>Phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+        </address>
+        <hr>
+    </section>
+    <footer>
+        <p>&copy; 2023 Atlantica Tourism. Dive into Dreams!</p>
+    </footer>
+</body>
+</html>
